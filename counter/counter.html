@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOOLBOX</title>
+    <link rel="stylesheet" href="./counter.css">
+    <script defer src="./counter.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="homePage">
+    <h1 id="heading1"><a href="../index.html">TOOLBOX</a></h1>
+    <nav>
+        <div class="navbar">
+            <div class="nav-header">
+                <button href="#" class="nav-toggle" id="btn"></button>
+            </div>
+            <ul class="links"> 
+                <li>
+                    <a class="nav-link" id="homeLink" href="../index.html" >Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" id="stopwatchLink" href="../stopwatch/stopwatch.html">Stopwatch</a>
+                </li>
+                <li>
+                    <a class="nav-link" id="counter" href="../counter/counter.html">Counter</a>
+                </li>
+                <li>
+                    <a class="nav-link" id="calculator" href="../Calculator/calculator.html">Calculator</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Clock -->
+    <div id="myclock" class="clock" onload="showTime()"></div>
+    </div>
+
+    <div id="mainPage">
+         <!-- Counter -->
+         <div id="wrapper">
+            <div id="counter"></div>
+            <h1 id="heading">COUNTER</h1>
+            <p><span id="value">0</span></p>
+            <div class="button-container">
+                <button class="btn decrease">Decrease</button>
+                <button class="btn increase">Increase</button>
+                <button class="btn reset">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
